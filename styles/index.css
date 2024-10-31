@@ -1,0 +1,42 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1e5e1e;
+    color: #fff;
+    .navLinks{
+        display: flex;
+        a{
+            
+            padding: 1rem;
+        }
+        a:hover{
+            background-color: #2d912d;
+            transition: all 250ms;
+        }
+        a:not(:hover){
+            transition: all 250ms;
+        }
+    }
+    .navItens{
+        display: flex;
+        align-items: center;
+        a{
+            margin: 0.50rem;
+        }
+    }
+    
+}
