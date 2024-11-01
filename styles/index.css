@@ -35,6 +35,13 @@ nav{
             margin: 0.5rem;
         }
     }
+    .navPerfil:hover{
+        background-color: #4bbadb;
+        transition: all 250ms;
+    }
+    .navPerfil:not(:hover){
+        transition: all 250ms;
+    }
 }
 header{
     display: flex;
@@ -53,22 +60,72 @@ header{
         a:hover{
             background-color: rgb(44, 44, 44);
             transition: all 250ms;
-        }
+        }section
+        section
         a:not(:hover){
             transition: all 250ms;
         }
     }
     .Dashboard{
         padding: 1rem;
-        .painel1{
-            background-color: rgb(167, 78, 240);
-            padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+        .paineis{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+        }
+        .painelClientes, .painelFornecedores, .painelFuncionarios, .painelFaturamento{
+            width: 15rem;
+            line-height: 0.5rem;
+            padding: 0.50rem;
+            text-align: left;
+            margin-right: 1rem;
             color: #fff;
-            border-radius: 20px;
-            .info{
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        .painelClientes{
+            background-color: rgb(91, 240, 78);
+        }
+        .painelClientes:hover{
+            background-color: rgb(119, 243, 107);
+            transition: all 250ms;
+        }
+        .painelClientes:not(:hover){
+            transition: all 250ms;
+        }
+        .painelFornecedores{
+            background-color: rgb(78, 143, 240);
+        }
+        .painelFornecedores:hover{
+            background-color: rgb(122, 171, 245);
+            transition: all 250ms;
+        }
+        .painelFornecedores:not(:hover){
+            transition: all 250ms;
+        }
+        .painelFuncionarios{
+            background-color: rgb(45, 218, 175);
+        }
+        .painelFuncionarios:hover{
+            background-color: rgb(96, 248, 210);
+            transition: all 250ms;
+        }
+        .painelFuncionarios:not(:hover){
+            transition: all 250ms;
+        }
+        .painelFaturamento{
+            background-color: rgb(140, 78, 240);
+        }
+        .painelFaturamento:hover{
+            background-color: rgb(172, 121, 253);
+            transition: all 250ms;
+        }
+        .painelFaturamento:not(:hover){
+            transition: all 250ms;
+        }
+        .graficos{
+            .graficoVendas, .graficoDespesas{
+                margin-top: 1rem;
+
             }
         }
     }
